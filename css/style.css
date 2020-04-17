@@ -157,3 +157,48 @@ font-weight: lighter;
     color: #888;
 }
 
+.contact{}
+.contact h1{    text-align: center;}
+.contact-form{}
+label{display:block;width: 100%;margin: 15px 0px 3px 0px;font-size: 18px;padding: 10px 6px 0px 0px;border-radius: 0px;}
+label, input,textarea{display:block;width: 74%;margin: auto;}
+form{
+    max-width: 60.3%;
+    margin: auto;
+}
+input{
+    padding: 15px 3px;
+    border-radius: 4px;
+    border: 1px solid #bdaa74;
+}
+form input[type=text]{}
+form input[type=password]{}
+form input[type=submit]{
+					width: 160px;
+					margin-top: 15px;
+					background: #000000c2;
+					color: white;
+					font-size: 17px;
+					margin: 10px 0px 0px 90px;
+					transition: 0.4s ease;
+					}
+					
+
+
+:focus {
+    outline: none;
+}
+
+form input[type=submit]:hover{background:transparent; 
+							  color:black;
+							  
+							  
+					
+					}
+.input:focus{
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+.input:focus:hover{
+    outline: red; 
